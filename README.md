@@ -1,0 +1,1 @@
+# adison-offerwall-global-base

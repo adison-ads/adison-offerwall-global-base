@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "0.9.0-beta4"
-let checksum = "e931dbf765d75964fd09139bc2c9f8c7fc2c0f1b471953bb03f795ee25e8a581"
+let version = "0.9.0-beta5"
+let checksum = "23d439c417985b4c98e46bc3272964d66d8c2661c60f555b810d10d91592e3b3"
 
 let package = Package(
     name: "AdisonOfferwallGlobalBase",
@@ -15,7 +15,7 @@ let package = Package(
             targets: ["AdisonOfferwallGlobalBase", "AdisonOfferwallGlobalBaseTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-global-core", exact: "0.28.0-beta3")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-global-core", exact: "0.28.0-beta4")
     ],
     targets: [
         .binaryTarget(

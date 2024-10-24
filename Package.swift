@@ -6,6 +6,8 @@ import PackageDescription
 let version = "0.9.8"
 let checksum = "5add54facec03684a15baec605a558a5661d8feb547aed7a05c38664529779cc"
 
+let coreVersion = "0.28.4"
+
 let package = Package(
     name: "AdisonOfferwallGlobalBase",
     products: [
@@ -15,7 +17,7 @@ let package = Package(
             targets: ["AdisonOfferwallGlobalBase", "AdisonOfferwallGlobalBaseTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-global-core", exact: "0.28.4")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-global-core", exact: Version(stringLiteral: coreVersion))
     ],
     targets: [
         .binaryTarget(

@@ -4,7 +4,7 @@
 import PackageDescription
 
 let version = "1.3.0"
-let checksum = "e3e2dd36ea781599d04f99aba1434a9a2de8a8161870b08d06b3f0ccb52e52b0"
+let checksum = "0ceaf374e8a62c26df5ac825fe8eb739b320b01a27ccc3b9bda65adb17bea227"
 
 let coreVersion = "1.3.0"
 
